@@ -18,7 +18,7 @@ class MultipartUploader extends AbstractUploader
 
     const PART_MIN_SIZE = 5242880;
     const PART_MAX_SIZE = 5368709120;
-    const PART_MAX_NUM = 10000;
+    const PART_MAX_NUM = 1000;
 
     /**
      * Creates a multipart upload for an S3 object.
